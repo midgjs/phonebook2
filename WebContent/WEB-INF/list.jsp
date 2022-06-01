@@ -7,10 +7,11 @@
 
 <%
 	
-	//List<PersonVo> personList = (List<PersonVo>)request.getAttribute("pList");
+	List<PersonVo> personList = (List<PersonVo>)request.getAttribute("pList");
 	
-	PhoneDao phoneDao = new PhoneDao();
-	List<PersonVo> personList = phoneDao.getPersonList();
+	//사용하면 안됨
+	//PhoneDao phoneDao = new PhoneDao();
+	//List<PersonVo> personList = phoneDao.getPersonList();
 %>
 
 
