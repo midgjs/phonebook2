@@ -5,6 +5,8 @@
 <%@ page import="com.javaex.dao.PhoneDao" %>
 <%@ page import="com.javaex.vo.PersonVo" %>
 
+<%@ taglib uri="http://java.sun.com/jsp/jstl/core" prefix="c"%>
+
 <%
 	
 	List<PersonVo> personList = (List<PersonVo>)request.getAttribute("pList");
